@@ -1,16 +1,17 @@
+"use client"
 import Image from "next/image";
 
 export default function HeroSection() {
   return (
-    <div className="relative h-[300px] sm:h-[400px] md:h-[500px] w-full">
-      <Image
-        src="/public/neumaticos-ruta"
-        alt="Neumáticos Norte - Distribuidor Bridgestone"
+    <div className="relative h-[300px] sm:h-[300px] md:h-[500px] w-full">
+       <Image
+        src='/ruta.jpeg'
         fill
         className="object-cover brightness-75"
+        alt="Neumáticos Norte - Distribuidor Bridgestone"
         priority
-      />
-      <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center px-4 md:px-16">
+      /> 
+      <div className="absolute inset-0  bg-opacity-50 flex flex-col justify-center px-4 md:px-16">
         <div className="container mx-auto">
           <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-2 md:mb-4">
             NEUMÁTICOS NORTE

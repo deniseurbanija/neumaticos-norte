@@ -2,10 +2,11 @@ import Image from "next/image";
 
 export default function MisionValores() {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+    <section id="mision-valores">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center" >
       <div className="relative h-[250px] sm:h-[300px] md:h-[400px] w-full rounded-lg overflow-hidden order-2 md:order-1">
         <Image
-          src="/placeholder.svg?height=400&width=600"
+          src="/working.jpg"
           alt="Neumáticos Norte - Nuestro local"
           fill
           className="object-cover"
@@ -38,5 +39,7 @@ export default function MisionValores() {
         </ul>
       </div>
     </div>
+    </section>
+    
   );
 }
