@@ -1,37 +1,13 @@
-"use client"
+"use client";
 
-import { MapPin, Clock } from "lucide-react"
-import { Card, CardContent, CardHeader } from "./ui/card"
-import { Badge } from "./ui/badge"
-
-interface BranchProps {
-  name: string
-  location: string
-  address: string
-  weekdayHours: string
-  weekendHours: string
-}
-
-const branches: BranchProps[] = [
-  {
-    name: "Posadas",
-    location: "Misiones",
-    address: "Ruta 50",
-    weekdayHours: "Lunes a viernes: 8:00 a 17:00",
-    weekendHours: "Sábados: 8:00 a 12:00",
-  },
-  {
-    name: "Resistencia",
-    location: "Chaco",
-    address: "Av. 25 de mayo 1170",
-    weekdayHours: "Lunes a viernes: 8:00 a 12:00 - 16:00 a 20:00",
-    weekendHours: "Sábados: 8:00 a 12:00",
-  },
-]
+import { MapPin, Clock } from "lucide-react";
+import { Card, CardContent, CardHeader } from "./ui/card";
+import { Badge } from "./ui/badge";
+import { branches } from "@/data/branch-data";
 
 export default function Sucursales() {
   return (
-    <div className="bg-gray-100 py-16 my-10">
+    <div className="bg-gray-100 py-16 my-10 w-full container mx-auto px-4">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 relative">
           <span className="relative z-10">NUESTRAS SUCURSALES</span>
@@ -40,7 +16,10 @@ export default function Sucursales() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {branches.map((branch, index) => (
-            <Card key={index} className="bg-white overflow-hidden transition-all duration-300 hover:shadow-lg border-0 shadow">
+            <Card
+              key={index}
+              className="bg-white overflow-hidden transition-all duration-300 hover:shadow-lg border-0 shadow"
+            >
               <div className="h-3 bg-red-600"></div>
               <CardHeader className="pb-2">
                 <div className="flex justify-between items-start">
@@ -75,8 +54,5 @@ export default function Sucursales() {
         </div>
       </div>
     </div>
-  )
+  );
 }
-
-
-

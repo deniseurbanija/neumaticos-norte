@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function MisionValores() {
   return (
-    <section id="mision-valores">
+    <section className="container mx-auto px-4 py-16" id="mision-valores">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center" >
       <div className="relative h-[250px] sm:h-[300px] md:h-[400px] w-full rounded-lg overflow-hidden order-2 md:order-1">
         <Image
