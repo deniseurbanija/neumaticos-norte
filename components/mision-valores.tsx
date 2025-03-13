@@ -14,8 +14,9 @@ export default function MisionValores() {
       </div>
 
       <div className="order-1 md:order-2">
-        <h2 className="text-2xl sm:text-3xl font-bold mb-4 md:mb-6">
-          MISIÓN Y VALORES
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 relative">
+        <span className="relative z-10">MISION Y VALORES</span>
+        <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-32 h-1 bg-gray-400"></span>
         </h2>
         <p className="text-base md:text-lg mb-3 md:mb-4">
           En Neumáticos Norte, como distribuidor oficial de Bridgestone y Firestone,

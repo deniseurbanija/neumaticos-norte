@@ -12,7 +12,7 @@ export default function Home() {
       <div className="container mx-auto px-4 py-16">
         <MisionValores />
       </div>
-      <div className="bg-gray-50 py-16">
+      <div className="bg-gray-100">
         <div className="container mx-auto px-4">
           <Sucursales />
         </div>
