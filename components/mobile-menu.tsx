@@ -23,34 +23,13 @@ export default function MobileMenu() {
           <span className="sr-only">Abrir menú</span>
         </Button>
       </SheetTrigger>
-      <SheetContent side="left" className="w-[300px] sm:w-[350px]">
+      <SheetContent side="left" className="w-[300px] sm:w-[350px] bg-white">
         <SheetHeader>
           <SheetTitle className="text-left">Menú</SheetTitle>
         </SheetHeader>
         <nav className="flex flex-col gap-4 mt-8">
           <Link
-            href="/productos"
-            className="text-lg font-medium py-2 hover:text-red-600 transition-colors"
-            onClick={() => setOpen(false)}
-          >
-            NUESTROS NEUMÁTICOS
-          </Link>
-          <Link
-            href="/consejos"
-            className="text-lg font-medium py-2 hover:text-red-600 transition-colors"
-            onClick={() => setOpen(false)}
-          >
-            CONSEJOS
-          </Link>
-          <Link
-            href="/promociones"
-            className="text-lg font-medium py-2 hover:text-red-600 transition-colors"
-            onClick={() => setOpen(false)}
-          >
-            PROMOCIONES
-          </Link>
-          <Link
-            href="/nosotros"
+            href="#mision-valores"
             className="text-lg font-medium py-2 hover:text-red-600 transition-colors"
             onClick={() => setOpen(false)}
           >
@@ -62,6 +41,13 @@ export default function MobileMenu() {
             onClick={() => setOpen(false)}
           >
             CONTACTO
+          </Link>
+          <Link
+            href="#sucursales"
+            className="text-lg font-medium py-2 hover:text-red-600 transition-colors"
+            onClick={() => setOpen(false)}
+          >
+            SUCURSALES
           </Link>
 
           <div className="border-t border-gray-200 my-4 pt-4">

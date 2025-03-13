@@ -20,7 +20,7 @@ export default function HeroSection() {
             DISTRIBUIDOR OFICIAL BRIDGESTONE
           </h2>
           <p className="text-white text-sm sm:text-base md:text-lg lg:text-xl max-w-2xl">
-            Ofrecemos la mejor selección de neumáticos Bridgestone con
+            Ofrecemos la mejor selección de neumáticos Bridgestone y Firestone con
             asesoramiento personalizado, servicio técnico especializado y los
             mejores precios del mercado.
           </p>

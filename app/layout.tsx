@@ -1,10 +1,14 @@
 import type React from "react";
 import "./globals.css";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Poppins } from "next/font/google";
 // import { ThemeProvider } from "@/components/theme-provider";
 
-const inter = Inter({ subsets: ["latin"] });
+const poppins = Poppins({
+  weight: ['400', '700'],
+  style: ['normal', 'italic'],
+  subsets: ['latin']}
+  );
 
 export const metadata: Metadata = {
   title: "Neumáticos Norte - Distribuidor Oficial Bridgestone",
@@ -19,7 +23,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es">
-      <body className={inter.className}>
+      <body className={poppins.className}>
         {/* <ThemeProvider attribute="class" defaultTheme="light"> */}
         {children}
         {/* </ThemeProvider> */}

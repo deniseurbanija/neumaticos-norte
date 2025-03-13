@@ -18,7 +18,7 @@ export default function MisionValores() {
           MISIÓN Y VALORES
         </h2>
         <p className="text-base md:text-lg mb-3 md:mb-4">
-          En Neumáticos Norte, como distribuidor oficial de Bridgestone,
+          En Neumáticos Norte, como distribuidor oficial de Bridgestone y Firestone,
           compartimos la visión del fundador Shojiro Ishibashi de "servir a la
           sociedad con calidad superior".
         </p>

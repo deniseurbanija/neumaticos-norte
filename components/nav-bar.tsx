@@ -8,7 +8,7 @@ export const NavBar = () => {
   return (
     <header className="bg-white shadow-sm sticky top-0 z-50">
       <div className="m-auto px-8 py-3 flex w-full items-center justify-between">
-        <div className="flex items-center">
+        <div className="flex w-full justify-between items-center">
           <MobileMenu />
           <Link href="/">
             <Image src="/logo.png" alt="logo" width={130} height={100}/>
@@ -21,6 +21,12 @@ export const NavBar = () => {
               className="text-black font-medium hover:text-red-600 transition-colors text-sm lg:text-base"
             >
               Nosotros
+            </Link>
+            <Link
+              href="#sucursales"
+              className="text-black font-medium hover:text-red-600 transition-colors text-sm lg:text-base"
+            >
+              Sucursales
             </Link>
             <Link
               href="/contacto"
@@ -36,12 +42,6 @@ export const NavBar = () => {
             <MapPin size={16} />
             <span className="hidden lg:inline">Cómo llegar</span>
             <span className="lg:hidden">Ubicación</span>
-          </Button>
-
-          <Button className="bg-red-600 hover:bg-red-700 text-white text-xs lg:text-sm px-2 lg:px-4">
-            <Search size={16} className="mr-1 lg:mr-2" />
-            <span className="hidden sm:inline">Buscar neumáticos</span>
-            <span className="sm:hidden">Buscar</span>
           </Button>
         </div>
       </div>

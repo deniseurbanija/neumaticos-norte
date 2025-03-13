@@ -1,6 +1,6 @@
 import HeroSection from "@/components/hero-section";
 import MisionValores from "@/components/mision-valores";
-import ProductosDestacados from "@/components/productos-destacados";
+import Sucursales from "@/components/sucursales";
 import { NavBar } from "@/components/nav-bar";
 import { Footer } from "@/components/footer";
 
@@ -14,7 +14,7 @@ export default function Home() {
       </div>
       <div className="bg-gray-50 py-16">
         <div className="container mx-auto px-4">
-          <ProductosDestacados />
+          <Sucursales />
         </div>
       </div>
       <Footer/>
