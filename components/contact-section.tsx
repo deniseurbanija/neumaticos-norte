@@ -33,7 +33,7 @@ export default function ContactSection() {
                 <Mail className="h-6 w-6 text-red-600" />
               </div>
               <h3 className="font-semibold mb-2">Email</h3>
-              <p className="text-gray-600">info@neumaticos-norte.com</p>
+              <p className="text-gray-600">neumaticosnortesrl@hotmail.com</p>
             </div>
 
             <div className="flex flex-col items-center text-center">

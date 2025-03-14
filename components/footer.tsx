@@ -55,7 +55,7 @@ export default function Footer() {
             </p>
             <div className="flex items-center gap-2 mb-2">
               <Mail className="h-4 w-4 text-red-500" />
-              <span>info@neumaticos-norte.com</span>
+              <span>neumaticosnortesrl@hotmail.com</span>
             </div>
             <div className="flex items-center gap-2">
               <Phone className="h-4 w-4 text-red-500" />
