@@ -1,9 +1,10 @@
 import HeroSection from "@/components/hero-section";
 import MisionValores from "@/components/mision-valores";
 import Sucursales from "@/components/sucursales";
-import { NavBar } from "@/components/nav-bar";
-import { Footer } from "@/components/footer";
+import NavBar from "@/components/nav-bar";
+import Footer from "@/components/footer";
 import ContactSection from "@/components/contact-section";
+import ServicesSection from "@/components/services-section";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <NavBar />
       <HeroSection />
       <MisionValores />
+      <ServicesSection />
       <Sucursales />
       <ContactSection />
       <Footer />

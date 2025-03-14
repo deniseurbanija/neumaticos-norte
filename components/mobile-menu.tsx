@@ -36,11 +36,11 @@ export default function MobileMenu() {
             NOSOTROS
           </Link>
           <Link
-            href="/contacto"
+            href="#servicios"
             className="text-lg font-medium py-2 hover:text-red-600 transition-colors"
             onClick={() => setOpen(false)}
           >
-            CONTACTO
+            SERVICIOS
           </Link>
           <Link
             href="#sucursales"
@@ -49,21 +49,13 @@ export default function MobileMenu() {
           >
             SUCURSALES
           </Link>
-
-          <div className="border-t border-gray-200 my-4 pt-4">
-            <Button
-              variant="outline"
-              className="w-full justify-start mb-3 border-red-600 text-red-600 hover:bg-red-600 hover:text-white"
-            >
-              <MapPin className="mr-2 h-4 w-4" />
-              Cómo llegar
-            </Button>
-
-            <Button className="w-full justify-start bg-red-600 hover:bg-red-700 text-white">
-              <Search className="mr-2 h-4 w-4" />
-              Buscar neumáticos
-            </Button>
-          </div>
+          <Link
+            href="#contacto"
+            className="text-lg font-medium py-2 hover:text-red-600 transition-colors"
+            onClick={() => setOpen(false)}
+          >
+            CONTACTO
+          </Link>
         </nav>
       </SheetContent>
     </Sheet>

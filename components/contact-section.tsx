@@ -6,12 +6,11 @@ import { Button } from "@/components/ui/button";
 export default function ContactSection() {
   // Function to open WhatsApp chat
   const openWhatsAppChat = () => {
-    // Replace with your actual phone number with country code (no spaces or special chars)
     window.open("https://wa.me/5493624649788", "_blank");
   };
 
   return (
-    <div className="bg-white py-16">
+    <div className="bg-white py-16" id="contacto">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 relative">
           <span className="relative z-10">CONTACTO</span>
@@ -26,7 +25,7 @@ export default function ContactSection() {
                 <Phone className="h-6 w-6 text-red-600" />
               </div>
               <h3 className="font-semibold mb-2">Teléfono</h3>
-              <p className="text-gray-600">+54 9 11 1234-5678</p>
+              <p className="text-gray-600">+54 9 3624649788</p>
             </div>
 
             <div className="flex flex-col items-center text-center">
@@ -41,11 +40,10 @@ export default function ContactSection() {
               <div className="bg-gray-100 p-4 rounded-full mb-4">
                 <MapPin className="h-6 w-6 text-red-600" />
               </div>
-              <h3 className="font-semibold mb-2">Oficina Central</h3>
-              <p className="text-gray-600">Av. Principal 123, Buenos Aires</p>
+              <h3 className="font-semibold mb-2">Casa Central</h3>
+              <p className="text-gray-600">Ruta 12 Km 5, Misiones</p>
             </div>
           </div>
-
           {/* WhatsApp Button */}
           <div className="flex justify-center mb-12">
             <Button
@@ -65,35 +63,59 @@ export default function ContactSection() {
               <span>Chatea con nosotros</span>
             </Button>
           </div>
-
-          {/* Social Media
           <div className="text-center">
-            <h3 className="text-xl font-semibold mb-6">Síguenos en redes sociales</h3>
+            <h3 className="text-xl font-semibold mb-6">
+              Síguenos en redes sociales
+            </h3>
             <div className="flex justify-center gap-6">
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/neumaticos.norte/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-gray-100 p-4 rounded-full transition-all hover:bg-red-600 hover:text-white"
+                className="bg-gray-100 p-4 rounded-full transition-all hover:bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500 hover:text-white"
+                aria-label="Instagram"
               >
-                <Instagram className="h-6 w-6" />
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="h-6 w-6"
+                >
+                  <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                  <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+                </svg>
               </a>
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/Neumaticosnortesrl"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-gray-100 p-4 rounded-full transition-all hover:bg-blue-600 hover:text-white"
+                aria-label="Facebook"
               >
-                <Facebook className="h-6 w-6" />
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="h-6 w-6"
+                >
+                  <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                </svg>
               </a>
-              <a
-                href="https://twitter.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-gray-100 p-4 rounded-full transition-all hover:bg-blue-400 hover:text-white"
-              >
-                <Twitter className="h-6 w-6" />
-              </a> */}
+            </div>
+          </div>
         </div>
       </div>
     </div>
