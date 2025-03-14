@@ -24,7 +24,7 @@ const branches = [
 // Services data
 const services = [
   "Alineado",
-  "Balance",
+  "Balanceo",
   "Reparación llantas",
   "Tren delantero",
   "Frenos",

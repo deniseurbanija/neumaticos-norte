@@ -18,7 +18,7 @@ import {
 export default function ServicesSection() {
   const services = [
     { name: "Alineado", icon: <Settings className="h-8 w-8" /> },
-    { name: "Balance", icon: <RotateCw className="h-8 w-8" /> },
+    { name: "Balanceo", icon: <RotateCw className="h-8 w-8" /> },
     { name: "Reparación llantas", icon: <Disc className="h-8 w-8" /> },
     { name: "Tren delantero", icon: <Wrench className="h-8 w-8" /> },
     { name: "Frenos", icon: <Gauge className="h-8 w-8" /> },
